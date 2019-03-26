@@ -17,7 +17,7 @@ class Player:
     state = 'n'   # stores current id
     view_key = ['look', 'see', 'visible', 'view']
     incomplete_key = ['run', 'walk', 'go', 'move', 'back', 'return']
-    interesting_responces = ['try next move', 'what to do next ?', 'what next ?', 'still don\'t see any sign of success', 'any further instructions ?']
+    interesting_responses = ['try next move', 'what to do next ?', 'what next ?', 'still don\'t see any sign of success', 'any further instructions ?']
     negation_statements = ['you can\'t do that !', 'not allowed to do so', 'that won\'t help us to win']
     instructions = []
     instructions_questions = ['instructions', 'play', 'guide']
